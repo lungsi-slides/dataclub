@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="185.20834mm"
+   height="103.1875mm"
+   viewBox="0 0 185.20834 103.1875"
+   version="1.1"
+   id="svg1943"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="softwares.svg">
+  <defs
+     id="defs1937">
+    <rect
+       x="-264.58334"
+       y="-63.5"
+       width="52.916668"
+       height="21.166668"
+       id="rect2580" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1333.1259"
+     inkscape:cy="962.19931"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer3"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1005"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1945"
+       originx="24.870831"
+       originy="58.208333" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1940">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="opaque_background"
+     transform="translate(1.6125255,4.9758902)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.255098;paint-order:stroke fill markers;stop-color:#000000"
+       id="rect2892"
+       width="185.20834"
+       height="103.1875"
+       x="-1.6125255"
+       y="-4.9758902" />
+  </g>
+  <g
+     inkscape:label="Scala"
+     inkscape:groupmode="layer"
+     id="g2526"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2820"
+       target="_blank"
+       xlink:href="https://www.scala-lang.org/"
+       xlink:title="Scala programming language"
+       transform="matrix(0.25,0,0,0.25,14.350762,-71.409793)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="350.39291"
+         y="443.07373"
+         id="text2506"><tspan
+           sodipodi:role="line"
+           id="tspan2504"
+           x="350.39291"
+           y="443.07373"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Scala</tspan></text>
+    </a>
+    <a
+       id="a2816"
+       target="_blank"
+       xlink:href="https://to-ithaca.github.io/libra/"
+       xlink:title="Documentation: Libra"
+       transform="matrix(0.25,0,0,0.25,14.350762,-71.409793)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="275.9758"
+         y="459.52747"
+         id="text2510"><tspan
+           sodipodi:role="line"
+           id="tspan2508"
+           x="275.9758"
+           y="459.52747"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">Libra</tspan></text>
+    </a>
+    <a
+       id="a2516"
+       transform="matrix(0.25,0,0,0.25,76.94903,36.709663)"
+       target="_blank"
+       xlink:href="https://github.com/typelevel/squants"
+       xlink:title="Github: Squants">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="75.675713"
+         y="26.664186"
+         id="text2514"><tspan
+           sodipodi:role="line"
+           id="tspan2512"
+           x="75.675713"
+           y="26.664186"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">Squants</tspan></text>
+    </a>
+    <a
+       id="a2824"
+       target="_blank"
+       xlink:href="https://github.com/rudogma/scala-superquants"
+       xlink:title="Github: scala-superquants"
+       transform="matrix(0.25,0,0,0.25,14.350762,-71.409793)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="391.59833"
+         y="458.86438"
+         id="text2520"><tspan
+           sodipodi:role="line"
+           id="tspan2518"
+           x="391.59833"
+           y="458.86438"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">Supersquants</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Rust"
+     inkscape:groupmode="layer"
+     id="g2502"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2800"
+       target="_blank"
+       xlink:href="https://www.rust-lang.org/"
+       xlink:title="Rust programming language"
+       transform="matrix(0.25,0,0,0.25,12.03445,-71.178345)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="88.815025"
+         y="441.95493"
+         id="text2478"><tspan
+           sodipodi:role="line"
+           id="tspan2476"
+           x="88.815025"
+           y="441.95493"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Rust</tspan></text>
+    </a>
+    <a
+       id="a2804"
+       target="_blank"
+       xlink:href="https://crates.io/crates/dimensioned/"
+       xlink:title="Documentation: dimensioned"
+       transform="matrix(0.25,0,0,0.25,12.03445,-71.178345)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="-33.23912"
+         y="460.67899"
+         id="text2482"><tspan
+           sodipodi:role="line"
+           id="tspan2480"
+           x="-33.23912"
+           y="460.67899"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">dimensioned</tspan></text>
+    </a>
+    <a
+       id="a2488"
+       transform="matrix(0.25,0,0,0.25,7.1368445,37.276588)"
+       target="_blank"
+       xlink:href="https://github.com/jesse99/runits"
+       xlink:title="Github: runits">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="75.675713"
+         y="26.664186"
+         id="text2486"><tspan
+           sodipodi:role="line"
+           id="tspan2484"
+           x="75.675713"
+           y="26.664186"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">runits</tspan></text>
+    </a>
+    <a
+       id="a2808"
+       target="_blank"
+       xlink:href="https://github.com/willi-kappler/simple_units"
+       xlink:title="Github: simple_units"
+       transform="matrix(0.25,0,0,0.25,12.03445,-71.178345)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="114.22995"
+         y="460.31552"
+         id="text2492"><tspan
+           sodipodi:role="line"
+           id="tspan2490"
+           x="114.22995"
+           y="460.31552"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">simple_units</tspan></text>
+    </a>
+    <a
+       id="a2812"
+       target="_blank"
+       xlink:href="https://crates.io/crates/uom"
+       xlink:title="Documentation: uom"
+       transform="matrix(0.25,0,0,0.25,12.03445,-71.178345)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="203.07002"
+         y="458.74832"
+         id="text2496"><tspan
+           sodipodi:role="line"
+           id="tspan2494"
+           x="203.07002"
+           y="458.74832"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">uom</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Python"
+     inkscape:groupmode="layer"
+     id="g2474"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2780"
+       target="_blank"
+       xlink:href="https://www.python.org/"
+       xlink:title="Python programming language"
+       transform="matrix(0.25,0,0,0.25,7.7509745,-74.68008)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="179.30185"
+         y="391.68332"
+         id="text2450"><tspan
+           sodipodi:role="line"
+           id="tspan2448"
+           x="179.30185"
+           y="391.68332"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Python</tspan></text>
+    </a>
+    <a
+       id="a2784"
+       target="_blank"
+       xlink:href="https://www.researchgate.net/publication/228991349_A_design_for_dimensional_analysis_in_robotics"
+       xlink:title="Article: A design for dimensional analysis in robotics"
+       transform="matrix(0.25,0,0,0.25,7.7509745,-74.68008)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="29.57711"
+         y="412.68405"
+         id="text2454"><tspan
+           sodipodi:role="line"
+           id="tspan2452"
+           x="29.57711"
+           y="412.68405"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';stroke-width:0.264583">Biggs</tspan></text>
+    </a>
+    <a
+       id="a2460"
+       transform="matrix(0.25,0,0,0.25,9.9585345,21.776223)"
+       target="_blank"
+       xlink:href="https://pypi.org/project/numericalunits/"
+       xlink:title="numericalunits package homepage at PyPI">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="75.675713"
+         y="26.664186"
+         id="text2458"><tspan
+           sodipodi:role="line"
+           id="tspan2456"
+           x="75.675713"
+           y="26.664186"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">numericalunits</tspan></text>
+    </a>
+    <a
+       id="a2788"
+       target="_blank"
+       xlink:href="https://github.com/hgrecco/pint"
+       xlink:title="Github: Pint: makes units easy"
+       transform="matrix(0.25,0,0,0.25,7.7509745,-74.68008)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="188.15636"
+         y="412.32062"
+         id="text2464"><tspan
+           sodipodi:role="line"
+           id="tspan2462"
+           x="188.15636"
+           y="412.32062"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">Pint</tspan></text>
+    </a>
+    <a
+       id="a2792"
+       target="_blank"
+       xlink:href="https://pypi.org/project/ScientificPython/"
+       xlink:title="ScientificPython package homepage at PyPI"
+       transform="matrix(0.25,0,0,0.25,7.7509745,-74.68008)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="234.6665"
+         y="410.75342"
+         id="text2468"><tspan
+           sodipodi:role="line"
+           id="tspan2466"
+           x="234.6665"
+           y="410.75342"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">ScientificPython</tspan></text>
+    </a>
+    <a
+       id="a2796"
+       target="_blank"
+       xlink:href="https://pypi.org/project/units/"
+       xlink:title="Python support for quantities with units"
+       transform="matrix(0.25,0,0,0.25,7.7509745,-74.68008)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="342.42239"
+         y="409.53592"
+         id="text2472"><tspan
+           sodipodi:role="line"
+           id="tspan2470"
+           x="342.42239"
+           y="409.53592"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">units</tspan></text>
+    </a>
+    <a
+       id="a2784-0"
+       target="_blank"
+       transform="matrix(0.25,0,0,0.25,-4.6844565,-74.68008)"
+       xlink:href="http://kdavies4.github.io/natu/seealso.html"
+       xlink:title="Documentation: natu">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="29.57711"
+         y="412.68405"
+         id="text2454-9"><tspan
+           sodipodi:role="line"
+           id="tspan2452-7"
+           x="29.57711"
+           y="412.68405"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';stroke-width:0.264583">natu</tspan></text>
+    </a>
+    <a
+       id="a2796-4"
+       target="_blank"
+       xlink:href="https://pypi.org/project/quantities/"
+       xlink:title="Support for physical quantities with units, based on numpy"
+       transform="matrix(0.25,0,0,0.25,21.812165,-74.40279)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="342.42239"
+         y="409.53592"
+         id="text2472-7"><tspan
+           sodipodi:role="line"
+           id="tspan2470-1"
+           x="342.42239"
+           y="409.53592"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">quantities</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Perl"
+     inkscape:groupmode="layer"
+     id="g2446"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2756"
+       target="_blank"
+       xlink:href="https://www.perl.org/"
+       xlink:title="Perl programming language"
+       transform="matrix(0.25,0,0,0.25,49.967185,-75.588815)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="295.83881"
+         y="336.84961"
+         id="text2426"><tspan
+           sodipodi:role="line"
+           id="tspan2424"
+           x="295.83881"
+           y="336.84961"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Perl</tspan></text>
+    </a>
+    <a
+       id="a2768"
+       target="_blank"
+       xlink:href="https://metacpan.org/release/AJGOUGH/Data-Dimensions-0.04/view/lib/Data/Dimensions.pm"
+       xlink:title="Data::Dimensions - Strongly type values with physical units"
+       transform="matrix(0.25,0,0,0.25,49.967185,-75.588815)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="161.08517"
+         y="358.74838"
+         id="text2430"><tspan
+           sodipodi:role="line"
+           id="tspan2428"
+           x="161.08517"
+           y="358.74838"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">Data::Dimensions</tspan></text>
+    </a>
+    <a
+       id="a2772"
+       target="_blank"
+       xlink:href="https://metacpan.org/release/JETTERO/Math-Units-PhysicalValue-1.0009/view/lib/Math/Units/PhysicalValue.pod"
+       xlink:title="Math::Units::PhysicalValue - An OO interface for automatically calculating values with units"
+       transform="matrix(0.25,0,0,0.25,49.967185,-75.588815)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="278.91919"
+         y="358.38498"
+         id="text2440"><tspan
+           sodipodi:role="line"
+           id="tspan2438"
+           x="278.91919"
+           y="358.38498"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">Math::Units</tspan></text>
+    </a>
+    <a
+       id="a2776"
+       target="_blank"
+       xlink:href="https://metacpan.org/release/KLORTHO/Physics-Unit-0.04/view/lib/Physics/Unit.pm"
+       xlink:title="Physics::Unit - Manipulate physics units and dimensions"
+       transform="matrix(0.25,0,0,0.25,49.967185,-75.588815)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="362.46942"
+         y="356.81778"
+         id="text2444"><tspan
+           sodipodi:role="line"
+           id="tspan2442"
+           x="362.46942"
+           y="356.81778"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">Physics::Unit</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Pascal"
+     inkscape:groupmode="layer"
+     id="g2422"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2752"
+       target="_blank"
+       xlink:href="http://pascal-central.com/ppl/index.html"
+       xlink:title="Pascal programming language"
+       transform="matrix(0.25,0,0,0.25,44.27861,-75.588815)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="33.4021"
+         y="337.33142"
+         id="text2412"><tspan
+           sodipodi:role="line"
+           id="tspan2410"
+           x="33.4021"
+           y="337.33142"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Pascal</tspan></text>
+    </a>
+    <a
+       id="a2760"
+       target="_blank"
+       xlink:href="https://www.deepdyve.com/lp/association-for-computing-machinery/implementation-of-physical-units-ZmdLnW5YEo"
+       xlink:title="Article: Implementation of physical units"
+       transform="matrix(0.25,0,0,0.25,44.27861,-75.588815)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="-10.802294"
+         y="358.80164"
+         id="text2416"><tspan
+           sodipodi:role="line"
+           id="tspan2414"
+           x="-10.802294"
+           y="358.80164"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';stroke-width:0.264583">Baldwin</tspan></text>
+    </a>
+    <a
+       id="a2764"
+       target="_blank"
+       xlink:href="http://www.dcs.gla.ac.uk/~wpc/reports/compilers/compilerindex/vp-ver2.pdf"
+       xlink:title="Vector Pascal, an array language"
+       transform="matrix(0.25,0,0,0.25,44.27861,-75.588815)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="52.80122"
+         y="359.4631"
+         id="text2420"><tspan
+           sodipodi:role="line"
+           id="tspan2418"
+           x="52.80122"
+           y="359.4631"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold Italic';stroke-width:0.264583">Vector Pascal</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Nim"
+     inkscape:groupmode="layer"
+     id="g2390"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2724"
+       target="_blank"
+       xlink:href="https://nim-lang.org/"
+       xlink:title="Nim programming language"
+       transform="matrix(0.25,0,0,0.25,-80.40337,-61.945831)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="381.05576"
+         y="284.63391"
+         id="text2384"><tspan
+           sodipodi:role="line"
+           id="tspan2382"
+           x="381.05576"
+           y="284.63391"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Nim</tspan></text>
+    </a>
+    <a
+       id="a2744"
+       target="_blank"
+       xlink:href="https://github.com/ClementJnc/dimrod"
+       xlink:title="Github: Dimrod"
+       transform="matrix(0.25,0,0,0.25,-80.40337,-61.945831)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="344.48972"
+         y="305.89658"
+         id="text2388"><tspan
+           sodipodi:role="line"
+           id="tspan2386"
+           x="344.48972"
+           y="305.89658"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">dimrod</tspan></text>
+    </a>
+    <a
+       id="a2748"
+       target="_blank"
+       xlink:href="https://github.com/mjendrusch/metric"
+       xlink:title="Github: metric - bringing SI to Nim"
+       transform="matrix(0.25,0,0,0.25,-80.40337,-61.945831)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="404.31183"
+         y="305.32913"
+         id="text2388-5"><tspan
+           sodipodi:role="line"
+           id="tspan2386-7"
+           x="404.31183"
+           y="305.32913"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">metric</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Numerle"
+     inkscape:groupmode="layer"
+     id="g2380"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2720"
+       xlink:href="http://nemerle.org/About/"
+       target="_blank"
+       xlink:title="Numerle programming language"
+       transform="matrix(0.25,0,0,0.25,-84.769025,-61.945831)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="253.40253"
+         y="284.65485"
+         id="text2374"><tspan
+           sodipodi:role="line"
+           id="tspan2372"
+           x="253.40253"
+           y="284.65485"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Numerle</tspan></text>
+    </a>
+    <a
+       id="a2740"
+       xlink:href="http://rsdn.org/forum/src/1823225.flat#1823225"
+       target="_blank"
+       xlink:title="Forum post documentation"
+       transform="matrix(0.25,0,0,0.25,-84.769025,-61.945831)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="245.67815"
+         y="305.51337"
+         id="text2378"><tspan
+           sodipodi:role="line"
+           id="tspan2376"
+           x="245.67815"
+           y="305.51337"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">Oyster.Units</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Matlab"
+     inkscape:groupmode="layer"
+     id="g2370"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2716"
+       target="_blank"
+       xlink:href="https://www.mathworks.com/discovery/dimensional-analysis.html"
+       xlink:title="Dimensional Analysis Toolbox"
+       transform="matrix(0.25,0,0,0.25,85.19715,-77.098418)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="169.34628"
+         y="286.05417"
+         id="text2368"><tspan
+           sodipodi:role="line"
+           id="tspan2366"
+           x="169.34628"
+           y="286.05417"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Matlab</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Lisp"
+     inkscape:groupmode="layer"
+     id="g2346"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2712"
+       target="_blank"
+       xlink:href="https://en.wikipedia.org/wiki/Lisp_(programming_language)"
+       xlink:title="Lisp programming language"
+       transform="matrix(0.25,0,0,0.25,85.19715,-77.098418)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="95.560074"
+         y="284.04095"
+         id="text2340"><tspan
+           sodipodi:role="line"
+           id="tspan2338"
+           x="95.560074"
+           y="284.04095"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Lisp</tspan></text>
+    </a>
+    <a
+       id="a2732"
+       target="_blank"
+       xlink:href="https://doi.org/10.1145/1039991.1039994"
+       xlink:title="Article: A package for handling units of measure in Lisp"
+       transform="matrix(0.25,0,0,0.25,85.19715,-77.098418)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="64.550293"
+         y="307.94226"
+         id="text2344"><tspan
+           sodipodi:role="line"
+           id="tspan2342"
+           x="64.550293"
+           y="307.94226"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';stroke-width:0.264583">Cunis</tspan></text>
+    </a>
+    <a
+       id="a2736"
+       target="_blank"
+       xlink:href="https://doi.org/10.1109/32.403789"
+       xlink:title="Article: Conversion of units of measurement"
+       transform="matrix(0.25,0,0,0.25,85.19715,-77.098418)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="118.38422"
+         y="306.35236"
+         id="text2344-4"><tspan
+           sodipodi:role="line"
+           id="tspan2342-5"
+           x="118.38422"
+           y="306.35236"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">units</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Java"
+     inkscape:groupmode="layer"
+     id="g2336"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2708"
+       target="_blank"
+       xlink:href="https://www.oracle.com/java/"
+       xlink:title="Java programming language"
+       transform="matrix(0.25,0,0,0.25,79.640865,-77.098418)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="0.57148308"
+         y="284.93576"
+         id="text2314"><tspan
+           sodipodi:role="line"
+           id="tspan2312"
+           x="0.57148308"
+           y="284.93576"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Java</tspan></text>
+    </a>
+    <a
+       id="a2728"
+       target="_blank"
+       xlink:href="https://doi.org/10.1145/1035292.1029008"
+       xlink:title="Articel: Object-oriented units of measurement"
+       transform="matrix(0.25,0,0,0.25,79.640865,-77.098418)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="-9.1402187"
+         y="306.9967"
+         id="text2318"><tspan
+           sodipodi:role="line"
+           id="tspan2316"
+           x="-9.1402187"
+           y="306.9967"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">MetaGen</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Haskell"
+     inkscape:groupmode="layer"
+     id="g2248"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2684"
+       target="_blank"
+       xlink:href="https://www.haskell.org/"
+       xlink:title="Haskell programming language"
+       transform="matrix(0.25,0,0,0.25,-25.40432,-62.370028)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="180.93437"
+         y="225.69492"
+         id="text2242"><tspan
+           sodipodi:role="line"
+           id="tspan2240"
+           x="180.93437"
+           y="225.69492"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Haskell</tspan></text>
+    </a>
+    <a
+       id="a2688"
+       target="_blank"
+       xlink:href="https://www.stephanboyer.com/post/131/type-safe-dimensional-analysis-in-haskell"
+       xlink:title="Article: Type safe dimensional analysis in Haskell"
+       transform="matrix(0.25,0,0,0.25,-25.272028,-63.692946)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="45.933479"
+         y="254.12335"
+         id="text2246"><tspan
+           sodipodi:role="line"
+           id="tspan2244"
+           x="45.933479"
+           y="254.12335"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';stroke-width:0.264583">Boyer</tspan></text>
+    </a>
+    <a
+       id="a2696"
+       target="_blank"
+       xlink:href="https://hackage.haskell.org/package/physics"
+       xlink:title="physics: dimensions, quantities and constants"
+       transform="matrix(0.25,0,0,0.25,-25.272028,-63.692946)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="182.11571"
+         y="253.08141"
+         id="text2246-6"><tspan
+           sodipodi:role="line"
+           id="tspan2244-8"
+           x="182.11571"
+           y="253.08141"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">physics</tspan></text>
+    </a>
+    <a
+       id="a2704"
+       target="_blank"
+       xlink:href="https://hackage.haskell.org/package/uom-plugin"
+       xlink:title="uom-plugin: Units of measure as a GHC typechecker plugin"
+       transform="matrix(0.25,0,0,0.25,-25.272028,-63.692946)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="298.31607"
+         y="252.78371"
+         id="text2246-4"><tspan
+           sodipodi:role="line"
+           id="tspan2244-2"
+           x="298.31607"
+           y="252.78371"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">uom-plugin</tspan></text>
+    </a>
+    <a
+       id="a2692"
+       target="_blank"
+       xlink:href="https://hackage.haskell.org/package/dimensional"
+       xlink:title="dimensional: Statically checked physical dimensions"
+       transform="matrix(0.25,0,0,0.25,-25.272028,-63.692946)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="95.895218"
+         y="254.85707"
+         id="text2246-9"><tspan
+           sodipodi:role="line"
+           id="tspan2244-84"
+           x="95.895218"
+           y="254.85707"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">dimensional</tspan></text>
+    </a>
+    <a
+       id="a2700"
+       target="_blank"
+       xlink:href="https://hackage.haskell.org/package/units"
+       xlink:title="units: A domain-specific type system for dimensional analysis"
+       transform="matrix(0.25,0,0,0.25,-25.272028,-63.692946)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="244.6022"
+         y="252.9758"
+         id="text2246-6-7"><tspan
+           sodipodi:role="line"
+           id="tspan2244-8-3"
+           x="244.6022"
+           y="252.9758"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">units</tspan></text>
+    </a>
+    <a
+       id="a2700-5"
+       target="_blank"
+       transform="matrix(0.25,0,0,0.25,39.975815,-79.658382)"
+       xlink:href="https://frinklang.org/frinkdata/units.txt"
+       xlink:title="Frink data file for non-changing units">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="244.6022"
+         y="252.9758"
+         id="text2246-6-7-9"><tspan
+           sodipodi:role="line"
+           id="tspan2244-8-3-5"
+           x="244.6022"
+           y="252.9758"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">units</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="F#"
+     inkscape:groupmode="layer"
+     id="g2238"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2680"
+       target="_blank"
+       xlink:href="https://fsharp.org/"
+       xlink:title="F sharp programming language"
+       transform="matrix(0.25,0,0,0.25,35.583335,-68.281702)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="344.3978"
+         y="189.42938"
+         id="text2236"><tspan
+           sodipodi:role="line"
+           id="tspan2234"
+           x="344.3978"
+           y="189.42938"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">F#</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Frink"
+     inkscape:groupmode="layer"
+     id="g2232"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2676"
+       target="_blank"
+       xlink:href="https://frinklang.org/"
+       xlink:title="Frink programming language"
+       transform="matrix(0.25,0,0,0.25,39.948985,-68.281702)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="242.39246"
+         y="189.94829"
+         id="text2230"><tspan
+           sodipodi:role="line"
+           id="tspan2228"
+           x="242.39246"
+           y="189.94829"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Frink</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Fortress"
+     inkscape:groupmode="layer"
+     id="g2226"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2672"
+       target="_blank"
+       xlink:href="https://github.com/stokito/fortress-lang"
+       xlink:title="Fortress programming language"
+       transform="matrix(0.25,0,0,0.25,46.828195,-68.281702)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="109.62749"
+         y="190.37239"
+         id="text2220"><tspan
+           sodipodi:role="line"
+           id="tspan2218"
+           x="109.62749"
+           y="190.37239"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Fortress</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Fortran"
+     inkscape:groupmode="layer"
+     id="g2194"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2648"
+       target="_blank"
+       xlink:href="https://fortran-lang.org/"
+       xlink:title="Fortran programming language"
+       transform="matrix(0.25,0,0,0.25,-49.88392,-55.088692)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="377.96783"
+         y="136.21786"
+         id="text2188"><tspan
+           sodipodi:role="line"
+           x="377.96783"
+           y="136.21786"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+           id="tspan2196">Fortran</tspan></text>
+    </a>
+    <a
+       id="a2668"
+       target="_blank"
+       xlink:href="https://doi.org/10.1002/spe.401"
+       xlink:title="Article: Automated computation and consistency checking of physical dimensions and units in scientific programs"
+       transform="matrix(0.25,0,0,0.25,-49.88392,-55.088692)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="368.32111"
+         y="158.63525"
+         id="text2192"><tspan
+           sodipodi:role="line"
+           id="tspan2190"
+           x="368.32111"
+           y="158.63525"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">PHYSUNITS</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Excel"
+     inkscape:groupmode="layer"
+     id="g2184"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2644"
+       target="_blank"
+       xlink:href="https://en.wikipedia.org/wiki/Microsoft_Excel"
+       xlink:title="Wikipedia on Microsoft Excel"
+       transform="matrix(0.25,0,0,0.25,-49.88392,-55.088692)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="295.57733"
+         y="135.93045"
+         id="text2178"><tspan
+           sodipodi:role="line"
+           id="tspan2176"
+           x="295.57733"
+           y="135.93045"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Excel</tspan></text>
+    </a>
+    <a
+       id="a2664"
+       target="_blank"
+       xlink:href="https://doi.org/10.1109/ICSE.2004.1317466"
+       xlink:title="Article: Validating the unit correctness of spreadsheet programs"
+       transform="matrix(0.25,0,0,0.25,-49.88392,-55.088692)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="294.89813"
+         y="157.72404"
+         id="text2182"><tspan
+           sodipodi:role="line"
+           id="tspan2180"
+           x="294.89813"
+           y="157.72404"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">XeLda</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Eiffel"
+     inkscape:groupmode="layer"
+     id="g2174"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2640"
+       target="_blank"
+       xlink:href="https://www.eiffel.com/"
+       xlink:title="Eiffel programming language"
+       transform="matrix(0.25,0,0,0.25,-49.88392,-55.088692)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="212.38731"
+         y="137.15919"
+         id="text2158"><tspan
+           sodipodi:role="line"
+           id="tspan2156"
+           x="212.38731"
+           y="137.15919"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Eiffel</tspan></text>
+    </a>
+    <a
+       id="a2660"
+       target="_blank"
+       xlink:href="http://se.inf.ethz.ch/old/projects/markus_keller/EiffelUnits.html"
+       xlink:title="Documentation: EiffelUnits"
+       transform="matrix(0.25,0,0,0.25,-49.88392,-55.088692)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="200.70688"
+         y="157.54417"
+         id="text2162"><tspan
+           sodipodi:role="line"
+           id="tspan2160"
+           x="200.70688"
+           y="157.54417"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">EiffelUnits</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="D"
+     inkscape:groupmode="layer"
+     id="g2154"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2636"
+       target="_blank"
+       xlink:href="https://dlang.org/"
+       xlink:title="D programming language"
+       transform="matrix(0.25,0,0,0.25,107.25275,-71.919648)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="86.453583"
+         y="136.67555"
+         id="text2130"><tspan
+           sodipodi:role="line"
+           id="tspan2128"
+           x="86.453583"
+           y="136.67555"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">D</tspan></text>
+    </a>
+    <a
+       id="a2652"
+       target="_blank"
+       xlink:href="https://github.com/biozic/quantities"
+       xlink:title="Github: quantities"
+       transform="matrix(0.25,0,0,0.25,107.25275,-71.919648)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="-11.787343"
+         y="158.57405"
+         id="text2134"><tspan
+           sodipodi:role="line"
+           id="tspan2132"
+           x="-11.787343"
+           y="158.57405"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">quantities</tspan></text>
+    </a>
+    <a
+       id="a2140"
+       transform="matrix(0.25,0,0,0.25,103.35252,-38.990802)"
+       target="_blank"
+       xlink:href="https://klickverbot.at/code/units/std_units.html"
+       xlink:title="Documentation: std.units">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="75.675713"
+         y="26.664186"
+         id="text2138"><tspan
+           sodipodi:role="line"
+           id="tspan2136"
+           x="75.675713"
+           y="26.664186"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">std.units</tspan></text>
+    </a>
+    <a
+       id="a2656"
+       target="_blank"
+       xlink:href="https://github.com/nordlow/units-d"
+       xlink:title="Github: units-d"
+       transform="matrix(0.25,0,0,0.25,107.25275,-71.919648)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="122.98032"
+         y="158.2106"
+         id="text2144"><tspan
+           sodipodi:role="line"
+           id="tspan2142"
+           x="122.98032"
+           y="158.2106"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">units-d</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="C++"
+     inkscape:groupmode="layer"
+     id="g2108"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2600"
+       target="_blank"
+       xlink:href="https://isocpp.org/"
+       xlink:title="C++ programming language"
+       transform="matrix(0.25,0,0,0.25,-17.827242,-57.281808)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="199.69426"
+         y="80.054817"
+         id="text2088"><tspan
+           sodipodi:role="line"
+           id="tspan2086"
+           x="199.69426"
+           y="80.054817"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">C++</tspan></text>
+    </a>
+    <a
+       id="a2616"
+       target="_blank"
+       xlink:href="https://www.boost.org/doc/libs/1_65_0/doc/html/boost_units.html"
+       xlink:title="Documentation: Boost.Units 1.1.0"
+       transform="matrix(0.25,0,0,0.25,-17.827242,-57.281808)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="-5.9665108"
+         y="101.95366"
+         id="text2092"><tspan
+           sodipodi:role="line"
+           id="tspan2090"
+           x="-5.9665108"
+           y="101.95366"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">Boost.Units</tspan></text>
+    </a>
+    <a
+       id="a2098"
+       transform="matrix(0.25,0,0,0.25,-17.891012,-38.508222)"
+       target="_blank"
+       xlink:href="https://github.com/carlomilanesi/cpp-measures"
+       xlink:title="Github: cpp-measures">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="75.675713"
+         y="26.664186"
+         id="text2096"><tspan
+           sodipodi:role="line"
+           id="tspan2094"
+           x="75.675713"
+           y="26.664186"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">cpp-measures</tspan></text>
+    </a>
+    <a
+       id="a2620"
+       target="_blank"
+       xlink:href="https://www.cs.cmu.edu/~sboucher/dimentia.pdf"
+       xlink:title="Article: Dimentia:  Detecting Logic Errors with Dimensional Analysis"
+       transform="matrix(0.25,0,0,0.25,-17.827242,-57.281808)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="167.42982"
+         y="101.59019"
+         id="text2102"><tspan
+           sodipodi:role="line"
+           id="tspan2100"
+           x="167.42982"
+           y="101.59019"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">Dimentia</tspan></text>
+    </a>
+    <a
+       id="a2624"
+       target="_blank"
+       xlink:href="http://home.xnet.com/~msk/quantity/quantity.html"
+       xlink:title="Documentation: The Quantity Library"
+       transform="matrix(0.25,0,0,0.25,-17.827242,-57.281808)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="236.16469"
+         y="100.02303"
+         id="text2106"><tspan
+           sodipodi:role="line"
+           id="tspan2104"
+           x="236.16469"
+           y="100.02303"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">Quantity</tspan></text>
+    </a>
+    <a
+       id="a2632"
+       target="_blank"
+       xlink:href="https://digital.library.unt.edu/ark:/67531/metadc668099/m2/1/high_res_d/2164.pdf"
+       xlink:title="Article: Introduction to the SI Library of Unit-Based Computation"
+       transform="matrix(0.25,0,0,0.25,-17.827242,-57.281808)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="388.90009"
+         y="98.805588"
+         id="text2106-0"><tspan
+           sodipodi:role="line"
+           id="tspan2104-0"
+           x="388.90009"
+           y="98.805588"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">SIunits</tspan></text>
+    </a>
+    <a
+       id="a2628"
+       target="_blank"
+       xlink:href="https://github.com/martinmoene/PhysUnits-CT-Cpp11"
+       xlink:title="Github: PhysUnits C++11 (compile-time)"
+       transform="matrix(0.25,0,0,0.25,-17.827242,-57.281808)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="310.0076"
+         y="98.86367"
+         id="text2106-5"><tspan
+           sodipodi:role="line"
+           id="tspan2104-1"
+           x="310.0076"
+           y="98.86367"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">PhysUnits</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="C"
+     inkscape:groupmode="layer"
+     id="g2048"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2596"
+       target="_blank"
+       xlink:href="https://www.iso.org/standard/74528.html"
+       xlink:title="C programming language"
+       transform="matrix(0.25,0,0,0.25,81.60382,-59.864246)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="200.22342"
+         y="20.258957"
+         id="text2036"><tspan
+           sodipodi:role="line"
+           id="tspan2034"
+           x="200.22342"
+           y="20.258957"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">C</tspan></text>
+    </a>
+    <a
+       id="a2604"
+       target="_blank"
+       xlink:href="https://doi.org/10.1109/ASE.2003.1240326"
+       xlink:title="Article: Certifying measurement unit safety policy"
+       transform="matrix(0.25,0,0,0.25,81.60382,-59.864246)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="58.062687"
+         y="42.15773"
+         id="text2040"><tspan
+           sodipodi:role="line"
+           id="tspan2038"
+           x="58.062687"
+           y="42.15773"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">C-UNITS</tspan></text>
+    </a>
+    <a
+       id="a2046"
+       transform="matrix(0.25,0,0,0.25,95.695265,-56.039627)"
+       target="_blank"
+       xlink:href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-883-program-analysis-fall-2005/projects/unit_type_infere.pdf"
+       xlink:title="Article: Annotation-less Unit Type Inference for C">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="75.675713"
+         y="26.664186"
+         id="text2044"><tspan
+           sodipodi:role="line"
+           id="tspan2042"
+           x="75.675713"
+           y="26.664186"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">Annotation-less</tspan><tspan
+           sodipodi:role="line"
+           x="75.675713"
+           y="39.914536"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583"
+           id="tspan2554">C-interface</tspan></text>
+    </a>
+    <a
+       id="a2608"
+       target="_blank"
+       xlink:href="https://web.cs.ucdavis.edu/~su/unitfull.pdf"
+       xlink:title="Article: Osprey: A Practical Type System for Validating Dimensional Unit Correctness of C Programs"
+       transform="matrix(0.25,0,0,0.25,81.60382,-59.864246)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="231.98729"
+         y="41.794327"
+         id="text2044-3"><tspan
+           sodipodi:role="line"
+           id="tspan2042-2"
+           x="231.98729"
+           y="41.794327"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">Osprey</tspan></text>
+    </a>
+    <a
+       id="a2612"
+       target="_blank"
+       xlink:href="https://github.com/magnusjonsson/unitc"
+       xlink:title="Github: unitc"
+       transform="matrix(0.25,0,0,0.25,81.60382,-59.864246)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="289.61069"
+         y="40.227127"
+         id="text2044-3-5"><tspan
+           sodipodi:role="line"
+           id="tspan2042-2-0"
+           x="289.61069"
+           y="40.227127"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">unitc</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="ATLAS"
+     inkscape:groupmode="layer"
+     id="g2032"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2588"
+       xlink:href="https://en.wikipedia.org/wiki/Abbreviated_Test_Language_for_All_Systems"
+       target="_blank"
+       xlink:title="Abbreviated Test Language for All Systems (ATLAS)"
+       transform="matrix(0.25,0,0,0.25,-21.828123,-43.65625)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="309.6218"
+         y="-45.432552"
+         id="text2014"><tspan
+           sodipodi:role="line"
+           id="tspan2012"
+           x="309.6218"
+           y="-45.432552"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">ATLAS</tspan></text>
+    </a>
+    <a
+       id="a2592"
+       target="_blank"
+       xlink:href="https://en.wikipedia.org/wiki/Abbreviated_Test_Language_for_All_Systems"
+       xlink:title="Abbreviated Test Language for All Systems (ATLAS)"
+       transform="matrix(0.25,0,0,0.25,-21.828123,-43.65625)">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="268.00107"
+         y="-22.475435"
+         id="text2018"><tspan
+           sodipodi:role="line"
+           id="tspan2016"
+           x="268.00107"
+           y="-22.475435"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold Italic';stroke-width:0.264583">C/ATLAS</tspan></text>
+    </a>
+    <a
+       id="a2024"
+       transform="matrix(0.25,0,0,0.25,45.2772,-56.254514)"
+       target="_blank"
+       xlink:href="https://doi.org/10.1109/AUTEST.1998.713433"
+       xlink:title="ATLAS 2000 signal and method classification and modeling">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="75.675713"
+         y="26.664186"
+         id="text2022"><tspan
+           sodipodi:role="line"
+           id="tspan2020"
+           x="75.675713"
+           y="26.664186"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold Italic';stroke-width:0.264583">ATLAS 2000</tspan></text>
+    </a>
+  </g>
+  <g
+     inkscape:label="Ada"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(24.870831,58.208334)">
+    <a
+       id="a2574"
+       xlink:href="https://www.adaic.org/"
+       xlink:title="Ada Information Clearinghouse"
+       target="_blank"
+       transform="matrix(0.25,0,0,0.25,-18.653123,-43.65625)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583"
+         x="77.005409"
+         y="-43.953568"
+         id="text1949"><tspan
+           sodipodi:role="line"
+           id="tspan1947"
+           x="77.005409"
+           y="-43.953568"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Bold';stroke-width:0.264583">Ada</tspan></text>
+    </a>
+    <a
+       id="a2584"
+       xlink:href="https://doi.org/10.1002/spe.4380150604"
+       xlink:title="Article: Ada's derived types and units of measure"
+       target="_blank"
+       transform="matrix(0.25,0,0,0.25,-18.653123,-43.65625)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';stroke-width:0.264583"
+         x="-23.702805"
+         y="-20.966097"
+         id="text1949-7"><tspan
+           sodipodi:role="line"
+           id="tspan1947-8"
+           x="-23.702805"
+           y="-20.966097"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';stroke-width:0.264583">Gehani</tspan></text>
+    </a>
+    <a
+       id="a1987"
+       transform="matrix(0.25,0,0,0.25,1.906507,-55.791312)"
+       target="_blank"
+       xlink:href="https://doi.org/10.1145/42190.42346"
+       xlink:title="Article: An Ada package for dimensional analysis">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="75.675713"
+         y="26.664186"
+         id="text1949-7-1"><tspan
+           sodipodi:role="line"
+           id="tspan1947-8-2"
+           x="75.675713"
+           y="26.664186"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">UNITS</tspan></text>
+    </a>
+    <a
+       id="a1987-6"
+       transform="matrix(0.25,0,0,0.25,1.4510265,-37.175998)"
+       xlink:title="Article: Implementation of a simple dimensionalitychecking system in Ada 2012"
+       xlink:href="https://blog.adacore.com/uploads/dc.pdf"
+       target="_blank">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L';stroke-width:0.264583"
+         x="-51.025719"
+         y="-48.164394"
+         id="text1949-7-1-4"><tspan
+           sodipodi:role="line"
+           id="tspan1947-8-2-3"
+           x="-51.025719"
+           y="-48.164394"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583">GNAT  <tspan
+   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium'"
+   id="tspan2548">compiler w/</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="-51.025719"
+           y="-34.914047"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Italic';stroke-width:0.264583"
+           id="tspan2550"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium'"
+             id="tspan2552">dimensional checking</tspan></tspan></text>
+    </a>
+    <text
+       xml:space="preserve"
+       id="text2578"
+       style="font-weight:500;font-size:10.58329999999999949px;line-height:1.25;font-family:'Century Schoolbook L';-inkscape-font-specification:'Century Schoolbook L Medium';white-space:pre;shape-inside:url(#rect2580);"
+       transform="matrix(0.25,0,0,0.25,-18.653123,-43.65625)" />
+  </g>
+</svg>

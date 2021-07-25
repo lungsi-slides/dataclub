@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>ICN Data Club Presentation by Lungsi (26 July 2021)</title>
+
+	<meta name="description" content="ICN Data Club Presentation by Lungsi (26 July 2021)">
+	<meta name="author" content="Lungsi Ngwua">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="../../common_revealjs/css/reveal.min.css">
+	<link rel="stylesheet" href="../../common_revealjs/css/theme/default.css" id="theme">
+
+	<!-- For syntax highlighting -->
+	<link rel="stylesheet" href="../../common_revealjs/lib/css/zenburn.css">
+
+	<!-- TOC-Progress plugin -->
+	<link rel="stylesheet" href="../../common_revealjs/plugin/toc-progress/toc-progress.css">
+
+	<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+	<script>
+		if( window.location.search.match( /print-pdf/gi ) ) {
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = '../../common_revealjs/css/print/pdf.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		}
+	</script>
+
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+	<div class="reveal">
+
+	<div class="slides" style="cursor:url(../../common_revealjs/laser_pointer.png), auto;">
+
+	<section>
+
+		<section data-state="no-toc-progress">
+			<h1 class="no-toc-progress">ICN Data Club</h1>
+			<h3>Dimensional Analysis: A Potential Use of Dimensionless Products in Biology/Neuroscience</h3>
+			<p>
+				<small>Presented by Lungsi, 26 July 2021</small>
+			</p>
+		</section>
+
+	</section>
+
+	<section>
+
+		<section>
+			<h2>The Problem</h2>
+		</section>
+
+		<section>
+			<h3>Consider the research by Ke et al. (2020)</h3>
+            <p style="text-align: left;">
+                Ke, H.-Y., Yang, H.-Y., Francis, A. J., Collins, T. P., Surendran, H., Alvarez-Laviada, A., Firth, J. M., &amp; MacLeod, K. T. (2020). Changes in cellular Ca2+ and Na+ regulation during the progression towards heart failure in the guinea pig. <i>The Journal of Physiology</i>, 598(7), 1339–1359. <a href="https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP277038">https://doi.org/10.1113/JP277038</a>
+			</p>
+		</section>
+
+		<section>
+			<h3 style="font-size: 0.7em; margin-bottom: 0;">Normal Pysiology: Action potential in T-tubules triggers Ca<sup>2+</sup> cascade</h3>
+			<!-- Fig1 -->
+            <div class="Figs" onclick="enlargeImage('1')">
+            <img id="figure1ToChange"
+            src="images/cardiac_cell_Ca_rest.png" style="max-width: 60%;" />
+            </div>
+            <small>Purkinje fibers activates
+            <span onclick="changeFigure('figure1ToChange', 'images/cardiac_cell_Ca_ventmuscleAP.png')" style="border-bottom: 1px dotted">
+            action potential from ventricular muscles.</span> The
+            <span onclick="changeFigure('figure1ToChange', 'images/cardiac_cell_Ca_ventmuscleAPvoley.png')" style="border-bottom: 1px dotted">
+            action potential spreads into the T-tubules.</span> This causes
+            <span onclick="changeFigure('figure1ToChange', 'images/cardiac_cell_Ca_LCa_open.png')" style="border-bottom: 1px dotted">
+            opening of L-type Ca channels</span> resulting in
+            <span onclick="changeFigure('figure1ToChange', 'images/cardiac_cell_Ca_LCa_open_CaInflux.png')" style="border-bottom: 1px dotted">
+            Ca<sup>2+</sup> influx.</span> The calcium influx triggers
+            <span onclick="changeFigure('figure1ToChange', 'images/cardiac_cell_Ca_RyR_open.png')" style="border-bottom: 1px dotted">
+            opening of the ryanodine receptor</span> causing
+            <span onclick="changeFigure('figure1ToChange', 'images/cardiac_cell_Ca_RyR_open_CaSpark.png')" style="border-bottom: 1px dotted">
+            Ca<sup>2+</sup> sparks.</span> The increased cytoplasmic Ca<sup>2+</sup> causes
+            <span onclick="changeFigure('figure1ToChange', 'images/cardiac_cell_Ca_RyR_open_CaSpark_musclecontracts.png')" style="border-bottom: 1px dotted">muscle contraction.</span> After the ventricular muscle has contracted the cytoplasmic Ca<sup>2+</sup> is
+            <span onclick="changeFigure('figure1ToChange', 'images/cardiac_cell_Ca_musclerelaxes_SERCAopens.png')" style="border-bottom: 1px dotted">
+            stored via the SERCA</span> and
+            <span onclick="changeFigure('figure1ToChange', 'images/cardiac_cell_Ca_musclerelaxes_NCXopens.png')" style="border-bottom: 1px dotted">
+            extruded via the NCX.</span> The excess Na<sup>+</sup> in the cytoplasm is
+            <span onclick="changeFigure('figure1ToChange', 'images/cardiac_cell_Ca_musclerelaxes_ATPase_controls_SERCA_NCX.png')" style="border-bottom: 1px dotted">expelled by the Na-K-ATPase.</span> Finally, the
+            <span onclick="changeFigure('figure1ToChange', 'images/cardiac_cell_Ca_rest.png')" style="border-bottom: 1px dotted">
+            resting state</span> is attained.
+            </small>
+		</section>
+
+		<section>
+			<h3 style="font-size: 0.7em; margin-bottom: 0;">Left ventricle hypertrophy: As hypertrophy progresses what does the kinetic of cytoplasmic Ca<sup>2+</sup> look like?</h3>
+			<!-- Fig2 -->
+            <div class="Figs" onclick="enlargeImage('2')">
+            <img id="figure2ToChange"src="images/cardiac_cell_CaTransient_all.png" style="max-width: 100%;" />
+            </div>
+            <small><span onclick="changeFigure('figure2ToChange', 'images/cardiac_cell_CaTransient_all.png')" style="border-bottom: 1px dotted">
+            Ca<sup>2+</sup> transient</span>: Is it different? How is it different? What does it mean?<br />
+            Compared to
+            <span onclick="changeFigure('figure2ToChange', 'images/cardiac_cell_CaTransient_sham.png')" style="border-bottom: 1px dotted">
+            control</span> the amplitude of Ca<sup>2+</sup> at
+            <span onclick="changeFigure('figure2ToChange', 'images/cardiac_cell_CaTransient_60AC.png')" style="border-bottom: 1px dotted">
+            compensated stage is larger</span>. But, as the hypertrophy progresses the
+            <span onclick="changeFigure('figure2ToChange', 'images/cardiac_cell_CaTransient_150AC.png')" style="border-bottom: 1px dotted">
+            amplitude decreases</span>
+            <span onclick="changeFigure('figure2ToChange', 'images/cardiac_cell_CaTransient_significance.png')" style="border-bottom: 1px dotted">
+            significantly.</span> <em>Decrease in amplitude indicates slow removal of cytosol</em> Ca<sup>2+</sup>.
+            </small>
+            
+		</section>
+
+		<section>
+			<h3 style="font-size: 0.7em; margin-bottom: 0;">Are any transporter responsible for the slow removal of cytosol Ca<sup>2+</sup>?</h3>
+			<!-- Fig3 -->
+            <div class="Figs" onclick="enlargeImage('3')">
+            <img id="figure3ToChange"src="images/Fig3AB.png" style="max-width: 60%;" />
+            </div>
+            <small>Looking at the time constants for SERCA, Na-Ca exchanger (NCX) and other miscellaneous transporters. At
+            <span onclick="changeFigure('figure3ToChange', 'images/Fig3AB.png')" style="border-bottom: 1px dotted">
+            compensated stage the time constants remain unchanged.</span> However, as the hypertrophy progresses, at 150 days the
+            <span onclick="changeFigure('figure3ToChange', 'images/Fig3CD.png')" style="border-bottom: 1px dotted">
+            time constant for SERCA makes a significant decline</span> Thus, suggesting reduced rate of
+            <span onclick="changeFigure('figure3ToChange', 'images/cardiac_cell_Ca_musclerelaxes_SERCAopens.png')" style="border-bottom: 1px dotted">
+            removing cytosol Ca<sup>2+</sup> by SERCA.</span> Also, the
+            <span onclick="changeFigure('figure3ToChange', 'images/Fig4AB.png')" style="border-bottom: 1px dotted">Ca<sup>2+</sup> content in the sarcoplasmic reticulum</span>
+            is significantly reduced at 150 days post-AC. The consequence of these two reasons is the rise in cytosol Ca<sup>2+</sup> in severe hypertrophy.
+            </small>
+		</section>
+		
+		<section>
+			<h3 style="font-size: 0.7em; margin-bottom: 0;">What about Ca<sup>2+</sup> sparks?</h3>
+			<!-- Fig4 -->
+            <div class="Figs" onclick="enlargeImage('4')">
+            <img id="figure4ToChange"src="images/cardiac_cell_Ca_RyR_open_CaSpark.png" style="max-width: 60%;" />
+            </div>
+            <small>Ca<sup>2+</sup> sparks
+            <span onclick="changeFigure('figure4ToChange', 'images/cardiac_cell_Ca_RyR_open_CaSpark_musclecontracts.png')" style="border-bottom: 1px dotted">initiate cardiac muscle contraction</span> but it also plays a role in maintaining
+            <span onclick="changeFigure('figure4ToChange', 'images/cardiac_cell_Ca_RyR_open_CaSpark.png')" style="border-bottom: 1px dotted">cytosol Ca<sup>2+</sup> concentration.</span> The spark frequency
+            <span onclick="changeFigure('figure4ToChange', 'images/Fig5AB.png')" style="border-bottom: 1px dotted">increases at 150 AC.</span>
+            This implies increased Ca<sup>2+</sup> SR stores therefore resulting in increased Ca<sup>2+</sup> cytosol. Multiplying the amount of spark frequency by the amount of
+            <span onclick="changeFigure('figure4ToChange', 'images/Fig5EF.png')" style="border-bottom: 1px dotted">spark mass</span> the authors conlcuded <em>increased spark mediated SR leak</em>.
+            </small>
+		</section>
+		
+		<section>
+			<h3 style="font-size: 0.7em; margin-bottom: 0;">What could explain the results seen during compensated stage of hypertrophy?</h3>
+			<!-- Fig5 -->
+            <div class="Figs" onclick="enlargeImage('5')">
+            <img id="figure5ToChange"src="images/table1_compensatedstage_positiveinotrophy.png" style="max-width: 100%;" />
+            </div>
+            <small>The increased
+            <span onclick="changeFigure('figure5ToChange', 'images/table1_compensatedstage_positiveinotrophy.png')" style="border-bottom: 1px dotted">positive inotrophy</span>, the
+            <span onclick="changeFigure('figure5ToChange', 'images/cardiac_cell_CaTransient_all.png')" style="border-bottom: 1px dotted">
+            high Ca<sup>2+</sup> transient amplitude</span> and the
+            <span onclick="changeFigure('figure5ToChange', 'images/Fig4AB.png')" style="border-bottom: 1px dotted">
+            increased sarcoplasmic reticulum Ca<sup>2+</sup> content.</span>
+            </small>
+		</section>
+		
+		<section>
+			<h3 style="font-size: 0.7em; margin-bottom: 0;">What is the pump activity after reactivation?</h3>
+			<!-- Fig6 -->
+            <div class="Figs" onclick="enlargeImage('6')">
+            <img id="figure6ToChange"src="images/cardiac_cell_Ca_musclerelaxes_ATPase_controls_SERCA_NCX.png" style="max-width: 60%;" />
+            </div>
+            <small>The Na-K-ATPase when active expells 3Na<sup>+</sup> in exchange for 2K<sup>+</sup> inflow. Thus, the net current is 1Na<sup>+</sup> outflow. The pump activity can therefore be described by the
+            <span onclick="changeFigure('figure6ToChange', 'images/Fig7sham.png')" style="border-bottom: 1px dotted">
+            rate of decay of the Na-K-ATPase current.</span> When the cardiac hypertrophy progresses at 150AC the
+            <span onclick="changeFigure('figure6ToChange', 'images/Fig7sham150AC.png')" style="border-bottom: 1px dotted">
+            rate of decay is slower</span>, that is, low rate of expelling cytosol Na<sup>+</sup>. If the
+            <span onclick="changeFigure('figure6ToChange', 'images/Fig7sham_area.png')" style="border-bottom: 1px dotted">
+            area under the curve is a measure of the amount of extruded Na<sup>+</sup></span>, then the
+            <span onclick="changeFigure('figure6ToChange', 'images/Fig7sham150AC_area.png')" style="border-bottom: 1px dotted">
+            area for 150AC is smaller.</span> Hence, the amount of extruded Na<sup>+</sup> is decreased in hypertrophy.<br />
+            What could explain for the decreased Na-K-ATPase current and the decreased Na<sup>+</sup> outflow?
+            </small>            
+		</section>
+		
+		<section>
+			<h3 style="font-size: 0.7em; margin-bottom: 0;">Is the amount of pump protein decreased during hypertrophy?</h3>
+			<!-- Fig7 -->
+            <div class="Figs" onclick="enlargeImage('7')">
+            <img id="figure7ToChange"src="images/Fig8.png" style="max-width: 70%;" />
+            </div>
+            <small>As the hypertrophy progresses to 150AC the
+            <span onclick="changeFigure('figure7ToChange', 'images/Fig8.png')" style="border-bottom: 1px dotted">
+            fluorescence for &alpha;-1 &amp; &alpha;-2 isoforms are decreased.</span> Furthermore, Western blotting showed
+            <span onclick="changeFigure('figure7ToChange', 'images/Fig9A.png')" style="border-bottom: 1px dotted">
+            lowered levels of &alpha;-1 isoform</span> (but not &alpha;-2 isoform) and
+            <span onclick="changeFigure('figure7ToChange', 'images/Fig9B.png')" style="border-bottom: 1px dotted">
+            lowered levels of the pump regulator phospholemman (PLM)</span> &mdash; the PLM decline is lesser at 150AC.
+            </small>
+		</section>
+		
+		<section>
+			<h3 style="font-size: 0.7em; margin-bottom: 0;">Could the 50% reduction in pump current during compensated stage be a mechanism for preserving contractility function?</h3>
+			<!-- Fig8 -->
+            <div class="Figs" onclick="enlargeImage('8')">
+            <img id="figure8ToChange"src="images/Fig6BC.png" style="max-width: 60%;" />
+            </div>
+            <small>
+            When the
+            <span onclick="changeFigure('figure8ToChange', 'images/Fig10A.png')" style="border-bottom: 1px dotted">
+            Na-K-ATPase current is reduced</span> we observe
+            <span onclick="changeFigure('figure8ToChange', 'images/Fig10C.png')" style="border-bottom: 1px dotted">
+            increase in Ca<sup>2+</sup> transient amplitude.</span> The
+            <span onclick="changeFigure('figure8ToChange', 'images/Fig10D.png')" style="border-bottom: 1px dotted">
+            Na<sup>+</sup>/Ca<sup>2+</sup> exchange current is also increased.</span><br />
+            Hypothesis: During compensated stage the
+            <span onclick="changeFigure('figure8ToChange', 'images/cardiac_cell_Ca_musclerelaxes_ATPase_controls_SERCA_NCX.png')" style="border-bottom: 1px dotted">
+            inhibition of Na-K-ATPase current increases SR load (Ca<sup>2+</sup> SR store)</span> and consequently
+            <span onclick="changeFigure('figure8ToChange', 'images/cardiac_cell_Ca_RyR_open_CaSpark.png')" style="border-bottom: 1px dotted">
+            maintains Ca<sup>2+</sup> transient.</span>
+            </small>
+		</section>
+		
+		<section>
+			<h3>What technique or tool can we use to put together these myriad of experimental observations into a consistent (hopefully more comprehensible) system?</h3>
+		</section>
+
+	</section>
+	
+	<section>
+
+		<section>
+			<h2>Dimensional Analysis</h2>
+		</section>
+
+		<section>
+			<h3>What is a dimension?</h3>
+			<blockquote>
+                It is simply a tag we attach to a quantity in an equation expressing some physical law... [D]imensions are only symbols of an elementary algebra, involving neither addition nor subtraction. To ask what are the true or natural dimensions of a quantity makes no more sense than to ask what is the true or natural word for goldfish. (McNish, 1957)
+			</blockquote>
+		</section>
+
+		<section>
+			<h3>Why are there seven base dimensions?</h3>
+			<img src="images/diman_168_203.png" style="max-width: 100%;" />
+			<blockquote><small>
+                [F]or the simplest mechanical quantities we need four dimensions to avoid ambiguities, five, if we include solid angle; that if we set one of these quantities equal to unity we can get along with four. But having one quantity equal to unity we cannot set another equal to unity without creating an ambiguity. Thus, unity itself becomes like a dimension, so again we may say we have five. Heat and electromagnetism add at least two more required dimensions. So I might venture to say that we should have seven elemental dimensions, at least, but I do not know, because I do not comprehend all of physics. One, of course, may get along with fewer dimensions if he will tolerate some ambiguities. (McNish, 1957)
+			</small></blockquote>
+		</section>
+		
+		<section>
+			<h3>Can we also reduce all units to a few "absolute" units?</h3>
+			<p>The symbols for the dimensions follow the rules of algebra but units are not bound by algebraic rules. Therefore, provided that the parent equation is not violated one may set as may quantities equal to 1 thus reducing it to a few "absolute" units. However, this is not recommended. Because,
+			<ul>
+                <li>measuring many units require difficult experiments</li>
+                <li>measurement must by accurate</li>
+			</ul>
+			<blockquote><small>
+                The magnitudes of quantities are not determined by nature, but by the units we have arbitrarily chosen for our measurement system.(McNish, 1957)
+			</small></blockquote>
+			</p>
+		</section>
+
+		<section>
+			<h3>What is dimensional analysis?</h3>
+			<p>
+			Dimensional analysis is purely algebraic whose theory is the mathematical theory of dimensionally homogeneous functions, a special class of general types of mathematical functions.
+			</p>
+		</section>
+
+		<section>
+			<h3>What is a dimensionless product?</h3>
+			<p>
+			If <i>x</i> meters, <i>y</i> seconds and <i>z</i> kilometers are quantities with dimensions, i.e. dimensional quantities, then <i>x</i> meters &sdot; <i>y</i> seconds is a dimensional product. However, <i>x</i> meters &#247; <i>x</i> kilometers is a dimensionless products.
+			</p>
+			<p>
+			Therefore, a dimensionless product is more than just a scalar it still <em>carries the dimensional information of various quantities it is a product of</em>.
+			</p>
+		</section>
+
+	</section>
+	
+	<section>
+
+		<section>
+			<h3>Why study dimensionless products?</h3>
+		</section>
+		
+		<section>
+			<h3>Can provide complete information in a compact form.</h3>
+		</section>
+
+		<section>
+			<h3 style="font-size: 0.7em; margin-bottom: 0;">Example: Drag of a body immersed in stream of incompressible fluid</h3>
+			<!-- Fig9 -->
+            <div class="Figs" onclick="enlargeImage('9')">
+            <img id="figure9ToChange"
+            src="images/drag_on_body.png" style="max-width: 100%;" />
+            </div>
+            <small>
+            It is fair to consider this system to be made up of
+            <span onclick="changeFigure('figure9ToChange', 'images/drag_on_body_labelled.png')" style="border-bottom: 1px dotted">
+            five variables</span> such that <i>F</i> = <i>f</i>(<i>V</i>, <i>D</i>, <i>&rho;</i>, <i>&mu;</i>).
+            </small>
+		</section>
+		
+		<section>
+			<h3>Dimensional analysis to transform the hypothetical expression.</h3>
+			<small>
+			<i>F</i> = <i>f</i>(<i>V</i>, <i>D</i>, <i>&rho;</i>, <i>&mu;</i>) can be transformed into<br />
+			<i>F</i> &#247; (<i>&rho;V</i>^2<i>D</i>^2) = <i>f</i><sub>1</sub>( (<i>VD&rho;</i>) &#247; <i>&mu;</i> ).
+			<p>Notice,
+			<ul>
+                <li>the equation is dimensionally homogeneous</li>
+                <li>left hand side and right hand side are both dimensionless</li>
+                <li><i>f</i><sub>1</sub> is an unknown function </li>
+                <li>the four variables are compounded into a single independent variable of <i>f</i><sub>1</sub></li>
+			</ul>
+			</p>
+			<p style="text-align: left;">
+			Substituting for some parameters and constants ((<i>VD&rho;</i>) &#247; <i>&mu;</i> &rarr; (<i>VD</i>) &#247; (<i>&mu;</i> &#247; <i>&rho;</i>) &#247; <i>R</i>, Reynolds number) this can be reduced for a spherical body with area (1/4)<i>&pi;D</i>^2 to
+			</p>
+			<i>F</i> = (1/2)<i>C&rho;V</i>^2<i>A</i>
+			<p style="text-align: left;">
+			where <i>C</i> = (8/<i>&pi;</i>)<i>f</i><sub>1</sub>(<i>R</i>), the drag coefficient.
+			</p>
+			</small>
+		</section>
+		
+		<section>
+			<h3 style="font-size: 0.7em; margin-bottom: 0;">Experimental graph from the derived relationship</h3>
+			<img src="images/drag_on_sphere_graph.png" style="max-width: 70%;" /><br />
+			<small>
+			This graphs contains information for<br />
+			<ul>
+                <li>drag forces on smooth spherical bodies of</li>
+                <ul><li>all sizes</li></ul>
+                <li>in an incompressible fluid with</li>
+                <ul>
+                <li>any density,</li>
+                <li>any viscosity and</li>
+                <li>any speed of flow</li>
+                </ul>
+			</ul>
+			</small>
+		</section>
+		
+		<section>
+			<h3>Two important properties of dimensionless graphs</h3>
+			<ul>
+                <li>can provide much more information than graphs having dimensions</li>
+                <li>points in the graph can be determined experimentally.</li>
+			</ul>
+		</section>
+    
+    </section>
+    
+    <section>
+
+		<section>
+			<h3>Minimum prerequisite on <br />the theory of dimensionless products</h3>
+		</section>
+
+		<section>
+			<h3>General algebraic formula for transforming units</h3>
+			<img src="images/algebraic_formula_for_transformation.png" style="max-width: 100%;" />
+			<p>
+			This is the general formula for a system based on the seven fundamental dimensions: [M], [L], [T], [A], [K], [cd] and [mol]. Here, W^w is such that original unit = W &sdot; new unit.
+			</p>
+		</section>
+		
+		<section>
+			<h3>Mathematical definition for<br />dimensional homogeneity</h3>
+			<img src="images/definition_dimensional_homogeneity.png" style="max-width: 100%;" />
+			<p>
+			</p>
+		</section>
+		
+		<section>
+			<h3>Definition of dimensionless product</h3>
+			<img src="images/definition_dim_dimless_product.png" style="max-width: 100%;" />
+			<p><small>
+			If the product <i>y</i> has no dimension it is called a <em>dimensionless product</em>.
+			</small></p>
+		</section>
+		
+		<section>
+			<h3>Notion of K-space</h3>
+			<img src="images/definition_Kspace.png" style="max-width: 100%;" />
+			<p><small>
+			This idea of K-space is essential to reducing non-dimensionless products to dimensionless product.
+			</small></p>
+		</section>
+		
+		<section>
+			<h3>Buckingham's theorem</h3>
+			<img src="images/buckingham_theorem.png" style="max-width: 100%;" />
+			<p><small>	
+			This theorem is at the heart of calculating the complete set of dimensionless products.
+			</small></p>
+		</section>
+		
+		<section>
+			<h3>Theorem for number of elements in a complete set of dimensionless products</h3>
+			<img src="images/theorem_for_total_pi.png" style="max-width: 100%;" />
+			<p><small>			
+			</small></p>
+		</section>
+    
+    </section>
+    
+    <section>
+
+		<section>
+			<h3>Systematic calculation for dimensionless products</h3>
+		</section>
+
+		<section>
+			<h3 style="font-size: 0.7em; margin-bottom: 0;">The four step approach</h3>
+			<!-- Fig10 -->
+            <div class="Figs" onclick="enlargeImage('10')">
+            <img id="figure10ToChange"src="images/calculation_step1a.png" style="max-width: 100%;" />
+            </div>
+            <div style="text-align: left;">
+            <p><small>
+            Consider the problem <i>f</i>(<i>P</i>, <i>Q</i>, <i>R</i>, <i>S</i>, <i>T</i>, <i>U</i>, <i>V</i>) in a <i>MLT</i>-dimensional system such that the
+            <span onclick="changeFigure('figure10ToChange', 'images/calculation_step1a.png')" style="border-bottom: 1px dotted">
+            relationship of the independent variables with respect to the three base dimensions</span> can be placed in a table. This is the dimensional matrix (<b>Step-1</b>).
+            <br />
+            Definition for dimensionless products tell us that it is of the form
+            <center><img src="images/pi_expression.png" style="max-width: 100%;" /></center>
+            It follows that each row of the matrix may be regarded as coefficients to the exponents <i>k</i>'s giving us the
+            <span onclick="changeFigure('figure10ToChange', 'images/calculation_step1b.png')" style="border-bottom: 1px dotted">
+            system of homogeneous equations.</span> Solving for this system we are able to
+            <span onclick="changeFigure('figure10ToChange', 'images/calculation_step2.png')" style="border-bottom: 1px dotted">
+            express three <i>k</i>'s in terms of the rest</span> (<b>Step-2</b>).
+            <br />
+            To solve this we
+            <span onclick="changeFigure('figure10ToChange', 'images/calculation_step3a.png')" style="border-bottom: 1px dotted">
+            set one <i>k</i> on the right side of the equation to unity and the rest to zero until we exaust all the <i>k</i>'s of the right side</span>. Representing this in
+            <span onclick="changeFigure('figure10ToChange', 'images/calculation_step3b.png')" style="border-bottom: 1px dotted">
+            tabular form</span> we notice that submatrix is an identity matrix. This is the
+            <span onclick="changeFigure('figure10ToChange', 'images/calculation_step3c.png')" style="border-bottom: 1px dotted">
+            solution matrix</span> (<b>Step-3</b>) where each matrix entry represents the exponents of quantities for
+            <span onclick="changeFigure('figure10ToChange', 'images/calculation_step4.png')" style="border-bottom: 1px dotted">
+            respective dimensionless product</span> (<b>Step-4</b>).
+            </small></p>
+            </div>
+		</section>
+		
+		<section>
+			<h3>Softwares that deal with dimensions <br />in some shape or form</h3>
+			<!-- <img src="images/softwares.svg" style="max-width: 100%;" /> -->
+			<object type="image/svg+xml" data="images/softwares_size_optimized.svg"></object>
+            <small>
+            </small>
+		</section>
+		
+		<section>
+			<h3>diman</h3>
+			<img src="images/diman_168_203.png" style="max-width: 100%;" />
+            <p style="text-align: left;"><small>
+            <a href="https://cljdoc.org/d/diman" title="go to documentation" target="_blank">diman<sup>&copy;</sup></a> is my in-house <a href="https://clojure.org/" title="go to Clojure homepage" target="_blank">Clojure</a> based software for <a href="https://cljdoc.org/d/diman" title="go to documentation" target="_blank">dim</a>ensional <a href="https://cljdoc.org/d/diman" title="go to documentation" target="_blank">an</a>alysis. By default it is based on a seven dimensional system built on the seven base dimensions: [M], [L], [T], [K], [A], [mol] and [cd] representing the quantities mass, length, time, thermodynamic temperature, electric current, amount of substance and luminous instensity respectively.<br />
+            diman<sup>&copy;</sup> is capable of performing dimensional consistency checks and derive dimensionless products. The program aims at simplifying the tedious computational steps particularly while deriving dimensionless products.
+            </small></p>
+		</section>
+		
+		<section>
+            <!-- <h3>Implement the capability in the model.</h3> -->
+            <h3 style="font-size: 1.2em; margin-bottom: 0;">Getting dimensionless products using diman<sup>&copy;</sup></h3>
+            <div style="font-size: 60%">
+                <div>
+                    <div style="width: 40%; display: inline-block; margin-right: 5%; vertical-align: top;">
+                     <!-- Fig11 -->
+                     <div class="Figs" onclick="enlargeImage('11')">
+                     <img id="figure11ToChange"src="images/calculation_step1_by_hand.png" style="max-width: 100%;" />
+                     </div>
+                    </div>
+                    <div style="width: 50%; display: inline-block;">
+                     <!-- Fig12 -->
+                     <div class="Figs" onclick="enlargeImage('12')">
+                     <img id="figure12ToChange"src="images/calculation_diman_setup1.png" style="max-width: 100%;" />
+                     </div>
+                    </div>
+                </div>
+            </div>
+            <small style="text-align: left;">
+            In diman<sup>&copy;</sup> the user goes through a minimum of two setups (here three is shown for clarity):
+            <span onclick="changeFigure('figure12ToChange', 'images/calculation_diman_setup1.png')" style="border-bottom: 1px dotted">
+            defining the independent variables of the <i>f</i> in terms of base dimensions</span>,
+            temporarily
+            <span onclick="changeFigure('figure12ToChange', 'images/calculation_diman_setup2.png')" style="border-bottom: 1px dotted">
+            placing the definitions in <code style="font-size: 80%">standard_formula</code></span> and
+            <span onclick="changeFigure('figure12ToChange', 'images/calculation_diman_setup3.png')" style="border-bottom: 1px dotted">
+            defining the independent variables in terms of their dimensional formula.</span> Without the last step the dimensional formula for respective independent variable cannot be obtained for deriving the dimensionless products.<br />
+            Now the user can compound the processes for <em>generating the dimensional matrix</em>, <em>solving the homogeneous equation</em> and <em>determining the solution matrix</em> in a
+            <span onclick="changeFigure('figure12ToChange', 'images/calculation_diman_solutionmatrix.png')" style="border-bottom: 1px dotted">
+            single code block.</span> Notice that we get the same
+            <span onclick="changeFigure('figure11ToChange', 'images/calculation_step4_by_hand.png')">
+            <span onclick="changeFigure('figure12ToChange', 'images/calculation_diman_solutionmatrix_view.png')" style="border-bottom: 1px dotted">
+            solution matrix</span></span> and therefore the same
+            <span onclick="changeFigure('figure12ToChange', 'images/calculation_diman_solutionmatrix_compose.png')" style="border-bottom: 1px dotted">
+            set of dimensionless products.</span>
+            </small>
+        </section>
+		
+		<section>
+			<h3 style="font-size: 0.7em; margin-bottom: 0;">What is complete set of dimensionless products for Ca<sup>2+</sup> transient in cardiac hypertrophy?</h3>
+			<img src="images/dimensionless_calculation_for_cardiac_Ca_transient1.png" style="max-width: 100%;" />
+			<!-- Fig13 -->
+            <div class="Figs" onclick="enlargeImage('13')">
+            <img id="figure13ToChange"
+            src="images/dimensionless_calculation_for_cardiac_Ca_transient2.png" style="max-width: 100%;" />
+            </div>
+            <small style="text-align: left;">
+            Based on the experiments done let us consider some function for the Ca<sup>2+</sup> transient (itself a dimensionless quantity) that is dependent on the above
+            <span onclick="changeFigure('figure13ToChange', 'images/dimensionless_calculation_for_cardiac_Ca_transient2.png')" style="border-bottom: 1px dotted">
+            nine variables</span>. After
+            <span onclick="changeFigure('figure13ToChange', 'images/dimensionless_calculation_for_cardiac_Ca_transient3.png')" style="border-bottom: 1px dotted">
+            setting up</span> for diman<sup>&copy;</sup> we get the
+            <span onclick="changeFigure('figure13ToChange', 'images/dimensionless_calculation_for_cardiac_Ca_transient4.png')" style="border-bottom: 1px dotted">
+            solution matrix</span> from which we can get the dimensionless products in their
+            <span onclick="changeFigure('figure13ToChange', 'images/dimensionless_calculation_for_cardiac_Ca_transient5.png')" style="border-bottom: 1px dotted">
+            expression form</span>. Hence, the nine dimensional independent variables are reduced to
+            <span onclick="changeFigure('figure13ToChange', 'images/dimensionless_calculation_for_cardiac_Ca_transient6.png')" style="border-bottom: 1px dotted">
+            five dimensionless independent variables</span> of a new unknown function.
+            </small>
+		</section>
+		
+		<section>
+			<h3>A few rules of thumb on deciding the dimensional independent variables</h3>
+			<small>
+			<p><ul>
+                <li>it must affect the phenomenon that is being studied</li>
+                <li>ommitting variables that logically influence the phenomenon can lead to impasse in calculation or worse, erroneous result</li>
+                <li>things that are practically constants can be considered a variable</li>
+                <li>understand the problem well enough to explain <strong>why</strong> and <strong>how</strong> the variable influences</li>
+                <li>have a theory (even if it is crude) of the mechanism of the phenomenon</li>
+			</ul></p>
+			<p><blockquote>
+                The success of any physical investigation depends on the judicious selection of what is to be observed as of primary importance, combined with a voluntary abstraction of the mind from those features which, however attractive they may appear, we are not yet sufficiently advanced in science to investigate with profit. - J. Clerk Maxwell
+            </blockquote></p>
+            </small>
+		</section>
+    
+    </section>
+
+
+	<section>
+		<h2>Bibliography</h2>
+		<small><ul>
+			<li>
+				BIPM (2020). <i>Base unit definitions</i>. Retrieved from <a href="https://www.bipm.org/en/measurement-units/base-units.html" title="go to webpage" target="_blank" style="color: #8ebf42">https://www.bipm.org/en/measurement-units/base-units.html</a><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				Comment: <b>B</b>ureau <b>I</b>nternational des <b>P</b>oids et <b>M</b>esures is the organization whose mission is to provide standards on matters related to measurement science.
+            <br />&nbsp;</li>
+            <li>
+				Buckingham, E. (1914). On Physically Similar Systems; Illustrations of the Use of Dimensional Equations. <i>Phys. Rev.</i>, 4(4), 345–376. <a href="https://doi.org/10.1103/PhysRev.4.345" title="go to paper" target="_blank" style="color: #8ebf42">https://doi.org/10.1103/PhysRev.4.345</a><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				This is the original paper for <em>Buckingham's Theorem</em>.
+            <br />&nbsp;</li>
+			<li>
+				Langhaar, H. L. (1951). <i>Dimensional Analysis and Theory of Models</i>. John Wiley &amp; Sons, Inc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				Comment: A practically comprehensive book on dimensional analysis.
+            <br />&nbsp;</li>
+            <li>
+				McNish, A. G. (1957, April 1). Dimensions units and standards. <i>Physics Today</i>, 10(4), 19. <a href="https://doi.org/10.1063/1.3060330" title="go to paper" target="_blank" style="color: #8ebf42">https://doi.org/10.1063/1.3060330</a><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				This is an excellent talk at the <a href="https://www.nist.gov/history/nist-100-foundations-progress/nbs-nist" title="History NBS to NIST" target="_blank" style="color: #8ebf42">National Bureau of Standards</a>, 1956.
+            <br />&nbsp;</li>
+            <li>
+				Ngwua, L. (2021, July 4). <i>Theory of Dimensionless Products</i>. NeuralGraphs.
+				McNish, A. G. (1957, April 1). Dimensions units and standards. <i>Physics Today</i>, 10(4), 19. <a href="https://www.neuralgraphs.com/lectures/diman/lectp8.html" title="go to website" target="_blank" style="color: #8ebf42">https://www.neuralgraphs.com/lectures/diman/lectp8.html</a><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				My comprehensive lectures on the theory of dimensionless products.
+            <br />&nbsp;</li>
+		</ul></small>
+	</section>
+
+	</div>
+
+	</div>
+
+	<script src="../../common_revealjs/lib/js/head.min.js"></script>
+	<script src="../../common_revealjs/js/reveal.min.js"></script>
+	
+	<script type="text/javascript" src="../../common_revealjs/plugin/neuralgraphs/interact.js"></script>
+
+	<script>
+
+		// Full list of configuration options available here:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+			transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+			// Parallax scrolling
+			// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+			// parallaxBackgroundSize: '2100px 900px',
+
+			// Optional libraries used to extend on reveal.js
+			dependencies: [
+				{ src: '../../common_revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: '../../common_revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: '../../common_revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: '../../common_revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: '../../common_revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+				{ src: '../../common_revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+
+				// TOC-Progress plugin
+				{ src: '../../common_revealjs/plugin/toc-progress/toc-progress.js', async: true, callback: function() { toc_progress.initialize(); toc_progress.create(); } }
+			]
+		});
+
+	</script>
+	
+
+</body>
+
+</html>
